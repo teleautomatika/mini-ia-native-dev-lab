@@ -17,8 +17,7 @@ name TEXT NOT NULL,
  status TEXT NOT NULL
  )
  """
- count = connection.execute("SELECT COUNT(*) FROM
-projects").fetchone()[0]
+ count = connection.execute("SELECT COUNT(*) FROM projects").fetchone()[0]
  if count == 0:
  connection.executemany(
  """
