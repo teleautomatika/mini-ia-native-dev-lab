@@ -28,8 +28,7 @@ INSERT INTO projects (name, category, status)
  ("Portal da Associação Comunitária", "Comunidade",
 "Planejamento"),
  ("Painel de Ações da ONG", "ONG", "Preparação"),
-("Agenda Digital da Escola", "Educação", "Estrutura
-inicial"),
+("Agenda Digital da Escola", "Educação", "Estrutura inicial"),
  ],
  )
  connection.commit()
